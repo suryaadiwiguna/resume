@@ -1,25 +1,89 @@
 div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  color: white;
+  line-height: 1.5cap;
+  font-size: 28pt;
+  margin-bottom: -0.5cap;
+}
+
+h2 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #EFDD9F;
+  font-size: 17pt;
+  margin-bottom: 45px;
+
+}
+
+h3 {
+  font-family: 'Open Sans';
+  color: #EFDD9F;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Noto Sans Mono';
+  color: #6198b4;
+  font-size: 10pt;
+}
+
+#subtitle {
+  font-family: 'Noto Sans Mono';
+  color: white;
+  font-weight: 400;
+  line-height: 1cap;
+  margin-top: 20px;
+  font-size: 12pt;
+  letter-spacing: 1.5px;
+}
+
+#detail {
+  font-family: 'Noto Sans Mono';
+  color: #9B705F;
+  font-weight: 400;
+  line-height: 0cap;
 }
 
 .main-page {
   max-width: 1028px;
+  border-radius: 30px;
   display: flex;
   flex-direction: row;
-  margin: 30px auto auto auto;
-  padding: 0 50px;
+  margin: 30px auto;
+  /* padding: 0 50px; */
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  background-color: #1F333A;
 }
 
 .main-page .left-section {
   /* width: 100%; */
-
-  max-width: 100%;
+  background-color: #1E1E1E;
+  padding: 50px;
+  width: 60%;
+  border-radius: inherit;
 }
 
 .main-page .right-section {
   /* background-color: blue; */
   /* width: 100%; */
-  min-width: 300px;
+  /* min-width: 300px; */
+  width: 40%;
+  background-color: #1F333A;
+  padding: 50px;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.image-photo {
+  max-height: 100%;
+  max-width: 125%;
+  /* padding-left: 0; */
+  margin-bottom: 20px;
+  margin-left: -80px;
+  border-radius: 0 30px 30px 0;
 }
