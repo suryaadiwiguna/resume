@@ -1,0 +1,25 @@
+div {
+  border: 1px solid black;
+}
+
+.main-page {
+  max-width: 1028px;
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto auto auto;
+  padding: 0 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-page .left-section {
+  /* width: 100%; */
+
+  max-width: 100%;
+}
+
+.main-page .right-section {
+  /* background-color: blue; */
+  /* width: 100%; */
+  min-width: 300px;
+}
