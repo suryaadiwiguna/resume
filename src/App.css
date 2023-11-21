@@ -87,3 +87,15 @@ p {
   margin-left: -80px;
   border-radius: 0 30px 30px 0;
 }
+
+.section {
+  padding-right: 30px;
+}
+
+.section ul {
+  font-family: 'Noto Sans Mono';
+  color: #63aace;
+  font-size: 10pt;
+  list-style: '<>  ';
+
+}

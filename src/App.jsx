@@ -38,18 +38,19 @@ function App() {
         <Section
           title="Contact"
           content="Lorem ipsum dolor sit amet"
+
         />
         <Section
           title="Skills"
-          content="Lorem ipsum dolor sit amet"
+          list={['React', 'JavaScript', 'CSS', 'HTML', 'Git', 'Node.js']}
         />
         <Section
           title="Certificates"
-          content="Lorem ipsum dolor sit amet"
+          list={['Professional Google Project Management', 'Professional Scrum Master I', 'Professional Scrum Product Owner (PSPO) I', 'IELTS: 7.5/9']}
         />
         <Section
           title="Languages"
-          content="Lorem ipsum dolor sit amet"
+          list={['English', 'Indonesian']}
         />
       </div>
     </div>
